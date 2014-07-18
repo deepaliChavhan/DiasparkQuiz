@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:f="http://java.sun.com/jsf/core"      
+      xmlns:h="http://java.sun.com/jsf/html">
+ 
+<body>
+
+      <h3>QUESTION-1 Request Dispatcher object is used ?</h3>
+      <h:form>
+         <h:selectOneRadio value="#{ud.data}">
+            <f:selectItem itemValue="1" itemLabel="A.  to include an image " />
+            <f:selectItem itemValue="2" itemLabel="B.   to include an class " />
+            <f:selectItem itemValue="3" itemLabel="C.  to include other resources " />
+            <f:selectItem itemValue="4" itemLabel="D.  both " />
+          </h:selectOneRadio>
+      
+       
+         <h3>QUESTION-2 Which method is used to specify before any lines that uses the PrintWriter ?</h3>
+
+       
+         <h:selectOneRadio value="#{ud.data1}">
+            <f:selectItem itemValue="1" itemLabel="A. setContextType()  " />
+            <f:selectItem itemValue="2" itemLabel="B.  setContentType()   " />
+            <f:selectItem itemValue="3" itemLabel=" C.  both  " />
+            <f:selectItem itemValue="4" itemLabel=" D.  None of these   " />
+            
+         </h:selectOneRadio>
+         <h3>QUESTION-3 To get the Servlet environment information ?</h3>
+
+         <h:selectOneRadio value="#{ud.data2}">
+            <f:selectItem itemValue="1" itemLabel=" A.  ServletException object is used   " />
+            <f:selectItem itemValue="2" itemLabel="B.  ServletContent object is used   " />
+            <f:selectItem itemValue="3" itemLabel=" C.  ServletContext object is used   " />
+            <f:selectItem itemValue="4" itemLabel=" D.  A and c both   " />
+            
+         </h:selectOneRadio>
+         <h3>QUESTION-4 What type of events does the HtmlCommandButton generate? </h3>
+
+       
+         <h:selectOneRadio value="#{ud.data3}">
+            <f:selectItem itemValue="1" itemLabel="A.  Command events  " />
+            <f:selectItem itemValue="2" itemLabel=" B.  Submit events " />
+            <f:selectItem itemValue="3" itemLabel="C.  Action events  " />
+            <f:selectItem itemValue="4" itemLabel="  D.  Click events " />
+            
+         </h:selectOneRadio>
+         <h3>QUESTION-5 The major difference between servlet and CGI is ? </h3>
+
+       
+         <h:selectOneRadio value="#{ud.data4}">
+            <f:selectItem itemValue="1" itemLabel="A.  Servlets executes slower compared to CGI  " />
+            <f:selectItem itemValue="2" itemLabel=" B.  Servlets are thread based and CGI is process based " />
+            <f:selectItem itemValue="3" itemLabel="C.  a and b both  " />
+            <f:selectItem itemValue="4" itemLabel="  D.  Click events " />
+            
+         </h:selectOneRadio>
+         
+        
+         	   		
+         <h:commandButton value="previous" action="welcome.xhtml" />
+         <h:commandButton value="ShowScore" action="score" />
+         
+</h:form>
+</body>
+</html>

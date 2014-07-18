@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html">
+	<h:head>
+        <title>Welcome Admin</title>
+    </h:head>
+	<h:body>
+	<h:form>
+		
+		Welcome #{bb.uname} 
+
+    	    <h3>CREATE QUIZ</h3> 
+         <h:selectOneListbox name="list" >
+            <f:selectItem itemValue="1" itemLabel="java" />
+            <f:selectItem itemValue="2" itemLabel="database" />
+            <f:selectItem itemValue="3" itemLabel="spring" />
+            <f:selectItem itemValue="4" itemLabel="hibernate" />
+            <f:selectItem itemValue="5" itemLabel="jsf" />				
+         </h:selectOneListbox>	
+        
+
+    		   	
+    	</h:form>
+ 
+		
+	
+</h:body>
+</html>
